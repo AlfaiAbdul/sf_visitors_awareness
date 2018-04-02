@@ -29,19 +29,14 @@ p {
 
 h1 {
   padding: 20px 0;
-  margin: 0;
+  margin: 2%;
   margin-bottom: 20px;
   font-size: 24px;
+  font-family: sans-serif;
   color: #333;
-  text-align: center;
+  text-align: left;
   border-bottom:1px solid #FCFCFC; 
-  width:80%;
-}
-
-h3 {
-  font-size: 18px;
-  color: #333;
-  text-align: center;
+  width:90%;
 }
 
 h4 {
@@ -54,13 +49,6 @@ h4 {
   font-weight: lighter;
 }
 
-
-a {
-  color: #00020A; 
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 16px;
-  text-align: center;
-}
 
 button {
   background-color: powderblue;
@@ -84,72 +72,19 @@ button {
   text-decoration: none;
 }
 
-.totalpane{
-  height: 500px;
-  width: 80%;
-  background-color: powderblue;
-  float: center;
-  border-collapse: collapse;
-}
 
-.datapane{
-  height: 100%;
-  width: 100%;
-  font-size: 12px;
-  text-align: center;
-  background-color: powderblue;
-  float: left;
-  border-collapse: collapse;
-}
 .leftpane{
-  height: 500px;
-  padding: 20px;
-  width: 65%;
+  height: 150px;
+  padding: 7px;
+  width: 87%;
   margin-right: 20px;
-  background-color: powderblue;
+  background-color: #efeee7;
   float: left;
   border-collapse: collapse; 
-  
-}
-.rightpane{
-  height: 450px;
-  width: 30%;
-  background-color: powderblue;
   position: relative;
-  margin-left: 68%; 
-      
-}
-
-.vitual_image{
-  width: 145px;
-  height: 145px;
-  padding: 3%;
-}
-
-.summary_image{
-  width: 200px;
-  height: 200px;
-  padding: 3%;
   
 }
 
-.comp_image{
-  width: 250px;
-  height: 150px;
-    
-}
-
-.vitual_image1{
-  width: 145px;
-  height: 145px;
-  padding: 3%;
-  border: 3px solid orange;
-  padding: 0;
-}
-
-.table th{
-  padding: 0;
-}
 
 #main-header-title h1 {
   color: #fcdd03;
@@ -166,7 +101,7 @@ button {
   height: 300px;
   text-align: center;
 
-  color: #fcdd03;
+  color: white;
   font-weight: bold;
   font-family: 'Guardian Egyptian Web';
   line-height: 1;
@@ -214,25 +149,13 @@ button {
     visibility: visible;
   }
 
-  .rightpane{
-    
-    margin-top: 520px;
-    height: 250px;
-    width: 98%;
-    margin-left: 0;
-    
-  }
+  
   
   .leftpane{
     width: 98%;
     height: 500px;
   }
   
-  .vitual_image{
-    width: 145px;
-    height: 145px;
-    
-  } 
-
+  
   
 }
